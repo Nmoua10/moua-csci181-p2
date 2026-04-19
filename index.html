@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+
+    <link
+      href="https://fonts.googleleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/styles.css" />
+  </head>
+  <body>
+    <section>
+      <h2>Projects</h2>
+
+      <ul class="project-list">
+        <li>
+          <article>
+            <button class="project-card" data-index="0">
+              <img src="images/pj2pc1.jpg" alt="HTML Basics" />
+              <h3>HTML Fundamentals</h3>
+            </button>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <button class="project-card" data-index="1">
+              <img src="images/pj2pc2.jpg" alt="CSS Styling" />
+              <h3>CSS Styling</h3>
+            </button>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <button class="project-card" data-index="2">
+              <img src="images/pj2pc3.jpg" alt="Improving a Web Page" />
+              <h3>Improving a Web Page</h3>
+            </button>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <button class="project-card" data-index="3">
+              <img src="images/pj2pc4.jpg" alt="Content Patterns" />
+              <h3>Content Patterns</h3>
+            </button>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <button class="project-card" data-index="4">
+              <img src="images/pj2pc3.5.jpg" alt="Responsive Design" />
+              <h3>Responsive Design</h3>
+            </button>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <button class="project-card" data-index="5">
+              <img src="images/pj2pc6.jpg" alt="JavaScript DOM Manipulation" />
+              <h3>JavaScript DOM Manipulation</h3>
+            </button>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <dialog id="project-modal">
+      <h2 id="modal-title"></h2>
+      <p id="modal-details"></p>
+      <a id="modal-link" href="#" target="_blank">View Project</a>
+      <br /><br />
+      <button id="modal-close">Close</button>
+    </dialog>
+
+    <script src="scripts/project.js"></script>
+  </body>
+</html>
